@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="producto.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="mensaje" class="message"></div>
+
+    <div class="container">
+        <h2>Agregar Producto</h2>
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad">
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio">
+
+        <label for="categoria">Categoría:</label>
+        <input type="text" id="categoria">
+
+        <button onclick="agregarProducto()">Agregar Producto</button>
+    </div>
+
+
+</body>
+</html>
